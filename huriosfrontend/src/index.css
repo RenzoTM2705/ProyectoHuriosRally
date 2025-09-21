@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+:root {
+    --Primary_0: #F3F9FF;
+    --Primary_1: #E3E8F6;
+    --Primary_2: #B2C0E6;
+    --Primary_3: #7F99D6;
+    --Primary_4: #5574B3;
+    --Primary_5: #3B5180;
+    --Primary_6: #223150;
+    --Primary_7: #0C1424;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Poppins-Regular.woff') format('woff');
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Primary_0);
+}
