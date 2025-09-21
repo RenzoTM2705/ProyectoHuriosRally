@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 //Propiedades de los botones
 type ButtonProps = {
-    defaultText: string; 
+    defaultText?: string; 
 };
 //Función botón/componente
 export function ButtonNormal({defaultText}: ButtonProps) {
