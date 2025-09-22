@@ -10,6 +10,11 @@ public class HuriosbackendApplication {
 		SpringApplication.run(HuriosbackendApplication.class, args);
 		//hola  diego
 		//segundo comentario
+		
 	}
 
+	// Método agregado como ejemplo
+	public static void saludar() {
+		System.out.println("¡Hola desde HuriosbackendApplication!");
+	}
 }
