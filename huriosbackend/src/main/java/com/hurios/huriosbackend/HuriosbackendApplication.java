@@ -10,3 +10,4 @@ public class HuriosbackendApplication {
         SpringApplication.run(HuriosbackendApplication.class, args);
     }
 }
+

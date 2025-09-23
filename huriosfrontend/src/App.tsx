@@ -1,8 +1,8 @@
-import { Login } from "./pages/Login.tsx"
+import { ResetPasswordChange } from "./pages/ResetPasswordChange.tsx"
 function App() {
   return (
     <main>
-      <Login/>
+      <ResetPasswordChange/>
     </main>
   )
 }
