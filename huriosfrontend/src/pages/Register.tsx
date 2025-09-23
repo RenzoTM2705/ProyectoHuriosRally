@@ -50,6 +50,7 @@ export function Register() {
                             disabled={!isFormValid}
                             clicked={clicked}
                         />
+                        <a href="#" className="underline w-fit hover:text-[var(--Primary_4)]">Iniciar sesión</a>
                     </form>
                 </div>
             </main>
