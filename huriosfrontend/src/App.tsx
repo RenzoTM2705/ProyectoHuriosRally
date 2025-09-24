@@ -1,9 +1,10 @@
-// src/App.tsx
-import React from "react";
-import AppRoutes from "./routes/AppRoutes";
-
+import { Login } from "./pages/Login.tsx"
 function App() {
-  return <AppRoutes />;
+  return (
+    <main>
+      <Login/>
+    </main>
+  )
 }
 
 export default App;

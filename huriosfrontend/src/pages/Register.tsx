@@ -27,13 +27,13 @@ export function Register() {
         }
     }
         return (
-            <main className="flex flex-col justify-center items-center h-screen mx-3.5">
+            <main className="flex flex-col justify-center items-center h-screen">
 
-                <div className="flex flex-col items-center border-[var(--Primary_5)] border-2 rounded-lg p-13 w-full">
+                <div className="flex flex-col items-center border-[var(--Primary_5)] border-2 rounded-lg p-13 mx-3.5 py-13  sm:py-20 sm:px-17 ">
                     <img src="/public/assets/imgs/logo.webp" className="h-44 w-[182px]" alt="Logo Hurios Rally E.I.R.L." title="Logo Hurios Rally E.I.R.L.">
                     </img>
 
-                    <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full">
+                    <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-70 sm:w-80">
                         <Input label="Nombre" type="text" onChange={(e) => setNombre(e.target.value)} />
 
                         <Input label="Correo" type="email" onChange={(e) => setCorreo(e.target.value)} placeholder="ejemplo@gmail.com" />
@@ -50,6 +50,7 @@ export function Register() {
                             disabled={!isFormValid}
                             clicked={clicked}
                         />
+                        <a href="#" className="underline w-fit hover:text-[var(--Primary_4)]">Iniciar sesión</a>
                     </form>
                 </div>
             </main>
