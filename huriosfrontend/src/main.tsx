@@ -1,20 +1,10 @@
-// src/main.tsx
-import React from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import "./index.css";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.tsx'
 
-/*
- main.tsx - punto de montaje de React. Muestra errores si no encuentra #root.
-*/
-
-const el = document.getElementById("root");
-if (!el) {
-  console.error("No se encontró el elemento #root en index.html");
-} else {
-  createRoot(el).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
