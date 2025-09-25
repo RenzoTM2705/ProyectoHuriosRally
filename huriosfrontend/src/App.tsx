@@ -1,10 +1,6 @@
-import { ResetPasswordChange } from "./pages/ResetPasswordChange.tsx"
+// BUENO (usa rutas)
+import AppRoutes from "./routes/AppRoutes";
 function App() {
-  return (
-    <main>
-      <ResetPasswordChange/>
-    </main>
-  )
+  return <AppRoutes />;
 }
-
-export default App
+export default App;
