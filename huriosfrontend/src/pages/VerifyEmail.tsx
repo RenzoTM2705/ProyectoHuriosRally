@@ -54,7 +54,7 @@ export function VerifyEmail() {
       }
       // éxito
       setMsg("Email verificado. Serás redirigido al login...");
-      setTimeout(() => navigate("/Login"), 1000);
+      setTimeout(() => navigate("/login"), 1000);
     } catch (err: any) {
       setMsg(err.message || "Error al verificar código");
     } finally { setLoading(false); }
