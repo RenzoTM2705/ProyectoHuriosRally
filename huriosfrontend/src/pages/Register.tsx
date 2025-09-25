@@ -49,20 +49,6 @@ export function Register() {
       setError("Completa correctamente todos los campos.");
       return;
     }
-<<<<<<< HEAD
-        return (
-            <main className="flex flex-col justify-center items-center h-screen mx-3.5">
-
-                <div className="flex flex-col items-center border-[var(--Primary_5)] border-2 rounded-lg p-13 w-full">
-                    <img src="/public/assets/imgs/logo.webp" className="h-44 w-[182px]" alt="Logo Hurios Rally E.I.R.L." title="Logo Hurios Rally E.I.R.L.">
-                    </img>
-
-                    <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full">
-                        <Input label="Nombre" type="text" onChange={(e) => setNombre(e.target.value)} />
-=======
-
-    setLoading(true);
-    setClicked(true); // activar animación del botón (si tu componente lo usa)
 
     try {
       // Preparar payload. Ajusta si tu backend espera más campos.
@@ -72,7 +58,6 @@ export function Register() {
         password: clave,
         celular   // opcional
       };
->>>>>>> ad84ca8 (Merge pull request #12 from Dieg0Santos1/DiegoSantos)
 
       // petición al backend
       const res = await fetch(`${API_BASE}/auth/register`, {
@@ -92,18 +77,6 @@ export function Register() {
         return;
       }
 
-<<<<<<< HEAD
-                        <ButtonState
-                            initialText="Registrar"
-                            successText="Registro exitoso"
-                            disabled={!isFormValid}
-                            clicked={clicked}
-                        />
-                    </form>
-                </div>
-            </main>
-        );
-=======
       // respuesta OK -> redirigir al formulario de verificación
       // pasamos el email por query para autocompletar el campo en VerifyEmail
       navigate(`/verify-email?email=${encodeURIComponent(correo)}`);
@@ -114,7 +87,6 @@ export function Register() {
       setClicked(false);
     } finally {
       setLoading(false);
->>>>>>> ad84ca8 (Merge pull request #12 from Dieg0Santos1/DiegoSantos)
     }
   };
 
