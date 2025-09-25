@@ -10,12 +10,26 @@ import React, { useEffect, useRef } from "react";
 */
 
 const logos = [
-  "/assets/imgs/logo1.webp",
-  "/assets/imgs/logo2.webp",
-  "/assets/imgs/logo3.webp",
-  "/assets/imgs/logo4.webp",
-  "/assets/imgs/logo5.webp",
-  "/assets/imgs/logo6.webp",
+  "/assets/imgs/marca1.webp",
+  "/assets/imgs/marca2.webp",
+  "/assets/imgs/marca3.webp",
+  "/assets/imgs/marca4.webp",
+  "/assets/imgs/marca5.webp",
+  "/assets/imgs/marca6.webp",
+  "/assets/imgs/marca7.webp",
+  "/assets/imgs/marca8.webp",
+  "/assets/imgs/marca9.webp",
+  "/assets/imgs/marca10.webp",
+  "/assets/imgs/marca11.webp",
+  "/assets/imgs/marca12.webp",
+  "/assets/imgs/marca13.webp",
+  "/assets/imgs/marca14.webp",
+  "/assets/imgs/marca15.webp",
+  "/assets/imgs/marca16.webp",
+  "/assets/imgs/marca17.webp",
+  "/assets/imgs/marca18.webp",
+  "/assets/imgs/marca19.webp",
+  "/assets/imgs/marca20.webp",
 ];
 
 const BrandsCarousel: React.FC = () => {

@@ -9,9 +9,9 @@ import React from "react";
 */
 
 const slides = [
-  "/assets/imgs/hero-1.webp",
-  "/assets/imgs/hero-2.webp",
-  "/assets/imgs/hero-3.webp",
+  "/assets/imgs/banner1.jpg",
+  "/assets/imgs/banner2.jpg",
+  "/assets/imgs/banner3.jpg",
 ];
 
 const Hero: React.FC = () => {

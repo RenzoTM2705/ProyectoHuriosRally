@@ -18,7 +18,7 @@ const ProductCard: React.FC<Props> = ({ title = "Producto ejemplo", price = "S/0
     <article className="bg-white rounded-lg shadow p-3">
       {/* imagen */}
       <div className="h-36 rounded overflow-hidden mb-3">
-        <img src={img} alt={title} className="w-full h-full object-cover" />
+        <img src={"/assets/imgs/filtros_de_aire_universal.webp"} alt={title} className="w-full h-full object-cover" />
       </div>
 
       {/* texto */}
@@ -37,4 +37,4 @@ const ProductCard: React.FC<Props> = ({ title = "Producto ejemplo", price = "S/0
   );
 };
 
-export default ProductCard;
+export default ProductCard
