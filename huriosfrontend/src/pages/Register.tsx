@@ -95,10 +95,10 @@ export function Register() {
 
   return (
     <main className="flex flex-col justify-center items-center h-screen mx-3.5">
-      <div className="flex flex-col items-center border-[var(--Primary_5)] border-2 rounded-lg p-13 w-full">
+      <div className="flex flex-col items-center border-[var(--Primary_5)] border-2 rounded-lg p-13 w-full md:w-auto">
         <img src="/assets/imgs/logo.webp" className="h-44 w-[182px]" alt="Logo Hurios Rally" title="Logo Hurios Rally" />
 
-        <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full md:w-xl mt-6">
           {/* Input para nombre */}
           <Input label="Nombre" type="text" onChange={(e) => setNombre(e.target.value)} />
 
