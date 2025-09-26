@@ -20,7 +20,7 @@ function effectInit(params) {
     Object.assign(swiper.params, overwriteParamsResult);
     Object.assign(swiper.originalParams, overwriteParamsResult);
   });
-  on('setTranslate _virtualUpdated', () => {
+  on('setTranslate', () => {
     if (swiper.params.effect !== effect) return;
     setTranslate();
   });
